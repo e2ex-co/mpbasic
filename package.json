@@ -2,7 +2,7 @@
   "author": "mp, <mp@tcs.de> (www.tcs.de)",
   "name": "@e2ex-co/mpbasic",
   "description": "Basic class",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "homepage": "https://github.com/mpneuried/mpbasic",
   "private": false,
   "main": "index.js",
@@ -14,8 +14,8 @@
     "node": "> 0.10.20"
   },
   "scripts": {
-	  "build": "./node_modules/coffee-script/bin/coffee -c index.coffee config.coffee test.coffee",
-	  "test": "npm run build; node test.js"
+    "build": "./node_modules/coffee-script/bin/coffee -c index.coffee config.coffee test.coffee",
+    "test": "npm run build; node test.js"
   },
   "license": "MIT",
   "publishConfig": {
@@ -27,7 +27,7 @@
     "lodash": "4.x"
   },
   "devDependencies": {
-	 "should": "4.3.x",
-	 "coffee-script": "1.10.x"
+    "should": "4.3.x",
+    "coffee-script": "1.10.x"
   }
 }
