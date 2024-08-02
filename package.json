@@ -1,6 +1,6 @@
 {
   "author": "mp, <mp@tcs.de> (www.tcs.de)",
-  "name": "mpbasic",
+  "name": "@e2ex-co/mpbasic",
   "description": "Basic class",
   "version": "0.0.18",
   "homepage": "https://github.com/mpneuried/mpbasic",
@@ -8,7 +8,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mpneuried/mpbasic.git"
+    "url": "git+https://github.com/e2ex-co/mpbasic.git"
   },
   "engines": {
     "node": "> 0.10.20"
@@ -18,6 +18,9 @@
 	  "test": "npm run build; node test.js"
   },
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "extend": "3.0.x",
     "colors": "1.1.x",
